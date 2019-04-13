@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-
+//Nambah koding disini
                 //setelah loading maka akan langsung berpindah ke home activity
                 Intent home=new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(home);
